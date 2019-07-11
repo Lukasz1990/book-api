@@ -1,0 +1,49 @@
+.books {
+  
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    color: silver;
+    padding:20px;
+    background:rgb(0,0,0);
+    border-bottom: 1px solid slategrey;
+    margin-top:20px;
+    
+    overflow:hidden;
+}
+.books__container {
+    font-size: 1.2rem;
+    
+    
+}
+.title {
+    padding:0.5rem;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.desc {
+padding:0.5rem;
+text-align: left;
+font-size:0.8rem;
+
+}
+
+.image {
+    border: 1px solid black;
+    padding:0.5rem;
+    height: auto;
+    border-radius: 6px;
+}
+
+.authors {
+    padding:0.5rem;
+
+    font-size: 1.5rem;
+    text-align:left;
+}
